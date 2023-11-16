@@ -1,0 +1,29 @@
+<html>
+<head>
+<style>
+h1{color:green;text-align:center;font-size:40;}
+u{color:green;}
+body{text-align:center;}
+</style>
+</head>
+<body>
+<u><h1>Addition of two numbers</h1></u>
+<label>
+enter the value of the first number<input type="text"id="num1"><br>
+enter the value of the second number <input type="text"id="num2"><br>
+<button onclick="sum1()">sum</button>
+<input id="answer">
+</label>
+<script>
+function sum1()
+{
+let x,y,z;
+x=parseInt(document.getElementById("num1").value);
+y=parseInt(document.getElementById("num2").value);
+z=x+y;
+document.getElementById('answer').value=z;
+}
+</script>
+</body>
+
+</html>
